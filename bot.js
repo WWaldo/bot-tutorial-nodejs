@@ -21,7 +21,7 @@ function respond() {
 function postMessage(txt) {
   var botResponse, options, body, botReq;
 
-  botResponse = "butts";
+  botResponse = txt.slice(1);
   console.log(txt);
 
   options = {
